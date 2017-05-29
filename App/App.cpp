@@ -73,7 +73,7 @@ int initializeEnclave(){
 int main(){
   unsigned int branch;
 
-  cout << "user input\n1.input string to enclave\n2.load string from sealed data" << endl;
+  cout << "user input\n1.input string to enclave and seal string\n2.load string from sealed data" << endl;
   cin >> branch;
 
   switch(branch){
